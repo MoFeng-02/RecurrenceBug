@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="RecurrenceBug.Demo.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RecurrenceBug.Demo"
+    xmlns:pages="clr-namespace:RecurrenceBug.Demo.Pages"
+    FlyoutBehavior="Locked"
+    Title="RecurrenceBug.Demo"
+    FlyoutWidth="160">
+
+    <FlyoutItem Title="Home">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate pages:HomePage}"
+            Route="home" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="User">
+        <ShellContent
+            Title="User"
+            ContentTemplate="{DataTemplate pages:UserInfoPage}"
+            Route="user-info" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Settings">
+        <ShellContent Title="Settings"
+          ContentTemplate="{DataTemplate pages:SettingsPage}"
+          Route="settings"/>
+    </FlyoutItem>
+</Shell>

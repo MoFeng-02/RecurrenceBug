@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecurrenceBug.Demo", "RecurrenceBug.Demo\RecurrenceBug.Demo.csproj", "{7A18E113-FBF9-4E33-BA90-DC694D50DDD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A18E113-FBF9-4E33-BA90-DC694D50DDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A18E113-FBF9-4E33-BA90-DC694D50DDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A18E113-FBF9-4E33-BA90-DC694D50DDD7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7A18E113-FBF9-4E33-BA90-DC694D50DDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A18E113-FBF9-4E33-BA90-DC694D50DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A18E113-FBF9-4E33-BA90-DC694D50DDD7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD7B0BA2-EADA-490D-848E-774C7096153B}
+	EndGlobalSection
+EndGlobal

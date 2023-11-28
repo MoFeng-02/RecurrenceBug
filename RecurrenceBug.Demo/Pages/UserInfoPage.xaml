@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecurrenceBug.Demo.Pages.UserInfoPage"
+             Title="UserInfoPage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Click the button to clear the login Token"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="Reset Token" Clicked="Button_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>
